@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>تنظیمات کاربر</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">تنظیمات کاربر</div>
+            <ul class="nav-links">
+                <li><a href="index.html">خانه</a></li>
+                <li><a href="s.html">امنیت</a></li>
+                <li><a href="a.html">اعلانات</a></li>
+                <li><a href="qw.html">حریم خصوصی</a></li>
+                <li><a href="posh.html">پشتیبانی</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="settings">
+        <div class="settings-sidebar">
+            <ul>
+                <li><a href="index.html" class="active">حساب کاربری</a></li>
+                <li><a href="s.html">امنیت</a></li>
+                <li><a href="a.html">اعلانات</a></li>
+                <li><a href="qw.html">حریم خصوصی</a></li>
+                <li><a href="posh.html">پشتیبانی</a></li>
+            </ul>
+        </div>
+
+        <div class="settings-content">
+            <h1>حساب کاربری</h1>
+            <form>
+                <div class="form-group">
+                    <label for="name">نام کامل</label>
+                    <input type="text" id="name" placeholder="نام کامل شما" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">ایمیل</label>
+                    <input type="email" id="email" placeholder="ایمیل شما" required>
+                </div>
+                <div class="form-group">
+                    <label for="password">رمز عبور</label>
+                    <input type="password" id="password" placeholder="رمز عبور جدید" required>
+                </div>
+                <div class="form-group">
+                    <label for="bio">بیوگرافی</label>
+                    <textarea id="bio" placeholder="درباره خودتان بنویسید..."></textarea>
+                </div>
+                <button type="submit" class="btn-primary">ذخیره تغییرات</button>
+            </form>
+        </div>
+    </section>
+</body>
+</html>

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>پشتیبانی</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">پشتیبانی</div>
+            <ul class="nav-links">
+                <li><a href="index.html">خانه</a></li>
+                <li><a href="s.html">امنیت</a></li>
+                <li><a href="a.html">اعلانات</a></li>
+                <li><a href="qw.html">حریم خصوصی</a></li>
+                <li><a href="posh.html">پشتیبانی</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="settings">
+        <div class="settings-sidebar">
+            <ul>
+                <li><a href="index.html">حساب کاربری</a></li>
+                <li><a href="s.html">امنیت</a></li>
+                <li><a href="a.html">اعلانات</a></li>
+                <li><a href="qw.html">حریم خصوصی</a></li>
+                <li><a href="posh.html" class="active">پشتیبانی</a></li>
+            </ul>
+        </div>
+
+        <div class="settings-content">
+            <h1>پشتیبانی</h1>
+            <form>
+                <div class="form-group">
+                    <label for="subject">موضوع</label>
+                    <select id="subject" required>
+                        <option value="">انتخاب کنید</option>
+                        <option value="خرابی">خرابی</option>
+                        <option value="فراموشی پسورد">فراموشی پسورد</option>
+                        <option value="اعلانات">اعلانات</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="message">پیام</label>
+                    <textarea id="message" placeholder="پیام خود را بنویسید..." required></textarea>
+                </div>
+                <button type="submit" class="btn-primary">ارسال پیام</button>
+            </form>
+        </div>
+    </section>
+</body>
+</html>
